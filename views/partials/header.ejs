@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dilaxn</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+    crossorigin="anonymous"></script>
+  </head>
+    <body>
+      <script>
+      var viewMode = getCookie("view-mode");
+if(viewMode == "desktop"){
+    viewport.setAttribute('content', 'width=1024');
+}else if (viewMode == "mobile"){
+    viewport.setAttribute('content', 'width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no');
+}</script>
+<script>
+      $(document).ready(function(){
+document.getElementById("db").click();
+      $('.footimg').addClass('as');
+      $('.navbar-brand').addClass('as');
+
+    });
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+
+      </script>
+  <header>
+
+    <p class="navbar-brand" style="color:#e3c047;">DILAXN
+          </p>
+    <div class="topnav" id="myTopnav">
+      <a href="#tarcontact" onclick="myFunction()">CONTACT ME</a>
+        <a href="#tarblog" onclick="myFunction()">BLOG</a>
+          <a href="#tarportfolio" onclick="myFunction()">PORTFOLIO</a>
+  <a href="#tarsevices" onclick="myFunction()">SERVICES</a>
+        <a href="#tarabout" onclick="myFunction()">ABOUT ME</a>
+      <a href="#tarhome" onclick="myFunction()">HOME</a>
+
+
+
+
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+
+
+
+
+
+
+
+  </header>
