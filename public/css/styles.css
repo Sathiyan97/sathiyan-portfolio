@@ -270,7 +270,7 @@ text-decoration: none;}
 #aboutmee {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/img/me.jpg);
   background-size: contain;
-
+height: 400px;
   background-position: center;
 
   background-attachment: fixed;
