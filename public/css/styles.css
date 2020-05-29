@@ -273,9 +273,9 @@ text-decoration: none;}
 -webkit-background-size:contain;
 -moz-background-size:contain;
 -o-background-size:contain;
-  background-position: center;
-background-repeat: no-repeat;
-  background-attachment: fixed;
+
+
+height:400px;
   padding-top: 50px;
   padding-bottom: 50px;
   font: black;
