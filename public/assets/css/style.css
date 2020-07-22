@@ -3564,6 +3564,9 @@ color: #fff;
     font-size: 35px;
     line-height: 1.2;
   }
+  #hid{
+    display: none;
+  }
 }
 
 @media (max-width: 575px) {
@@ -3572,6 +3575,7 @@ color: #fff;
     font-size: 32px;
     line-height: 1.2;
   }
+
 }
 
 /* line 105, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
@@ -4559,6 +4563,7 @@ html,body{
   .h1-testimonial-active:hover button.slick-next {
     right: -37px;
   }
+
 }
 
 /* line 150, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_testimonial.scss */
