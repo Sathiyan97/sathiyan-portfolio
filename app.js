@@ -67,6 +67,9 @@ app.post("/compose",function(req,res){
 
 
 });
+// app.post('/send',(req,res) =>{
+//   console.log(req.body)
+// });
 
 app.post('/send', (req, res) => {
   const output = `
@@ -84,18 +87,21 @@ app.post('/send', (req, res) => {
 
   // create reusable transporter object using the default SMTP transport
   let transporter = nodemailer.createTransport({
-    host: 'smtp.gmail.com',
+    host: 'mail.portfoliosthy2020.com', 
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-        user: 'shanusasanu@gmail.com', // generated ethereal user
-        pass: 'Shanu123416'  // generated ethereal password
+      user: 'portfoliosthy2020@gmail.com',
+      pass: 'portfolio2020'  // generated ethereal password
+    },
+    tls:{
+      rejectUnauthorized:false 
     }
   });
 
   // setup email data with unicode symbols
   let mailOptions = {
-      from: '"Nodemailer Contact" <shanusasanu@gmail.com>', // sender address
+      from: '"Nodemailer Contact" <portfoliosthy2020@gmail.com>', // sender address
       to: 'saththiyan97@gmail.com', // list of receivers
       subject: 'Node Contact Request', // Subject line
       text: 'Hello world?', // plain text body
