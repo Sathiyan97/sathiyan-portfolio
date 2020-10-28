@@ -86,7 +86,7 @@ a, a:hover {
 @media (max-width: 991.98px) {
   .unslate_co--footer {
     height: auto !important;
-    position: relative !important;
+    position: static !important;
     
   }
 }
