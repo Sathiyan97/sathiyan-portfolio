@@ -547,7 +547,8 @@ a, a:hover {
   position: fixed;
   z-index: 1009;
   height: 100vh;
-  background: #fff;
+  /* background: #fff; */
+  background: #000;
   width: 280px;
   overflow: auto;
   padding-top: 30px;
@@ -585,7 +586,8 @@ a, a:hover {
 
 .unslate_co--site-mobile-menu .close-wrap a .close-label {
   margin-right: 20px;
-  color: #000;
+  /* color: #000; */
+  color: #fff;
 }
 
 .unslate_co--site-mobile-menu .close-wrap a .close-times {
@@ -597,7 +599,8 @@ a, a:hover {
 .unslate_co--site-mobile-menu .close-wrap a .close-times .bar1, .unslate_co--site-mobile-menu .close-wrap a .close-times .bar2 {
   width: 2px;
   height: 20px;
-  background: #000;
+  /* background: #000; */
+  background: #fff;
   position: absolute;
 }
 
@@ -626,7 +629,8 @@ a, a:hover {
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  color: #000;
+  /* color: #000; */
+  color: #fff;
 }
 
 .unslate_co--site-mobile-menu ul a:hover, .unslate_co--site-mobile-menu ul li a:hover {
@@ -669,7 +673,8 @@ a, a:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  color: #000;
+  /* color: #000; */
+  color: #fff;
   -webkit-transform: translate(-50%, -50%) rotate(-180deg);
   -ms-transform: translate(-50%, -50%) rotate(-180deg);
   transform: translate(-50%, -50%) rotate(-180deg);
