@@ -33,6 +33,8 @@ http.createServer(function(req, res) {
 	res.end('Hello World');
 }).listen(8080);
 
+
+
 app.get("/arr/:topic",function(req,res)
 {
   const reqarr=req.params.topic;
@@ -173,3 +175,5 @@ if(port==null||port==""){port=3000;}
 app.listen(port, function() {
   console.log("Server has started on port successfully.");
 });
+
+
