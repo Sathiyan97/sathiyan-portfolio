@@ -72,7 +72,7 @@
       <workItem from="1620829561616" duration="494000" />
       <workItem from="1620995927587" duration="9000" />
       <workItem from="1626702578914" duration="1734000" />
-      <workItem from="1636085167435" duration="658000" />
+      <workItem from="1636085167435" duration="1305000" />
     </task>
     <task id="LOCAL-00001" summary="New update">
       <created>1636085730086</created>
@@ -81,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636085730086</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New update">
+      <created>1636086340500</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636086340500</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,9 +120,13 @@
       <screen x="0" y="25" width="1536" height="881" />
     </state>
     <state x="612" y="363" key="Github.ShareDialog/0.25.1536.881@0.25.1536.881" timestamp="1636086078343" />
-    <state x="554" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1636085739322">
+    <state x="368" y="202" key="Vcs.Push.Dialog.v2" timestamp="1636086692281">
       <screen x="0" y="25" width="1536" height="881" />
     </state>
-    <state x="554" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1536.881@0.25.1536.881" timestamp="1636085739322" />
+    <state x="368" y="202" key="Vcs.Push.Dialog.v2/0.25.1536.881@0.25.1536.881" timestamp="1636086692281" />
+    <state x="554" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1636105631523">
+      <screen x="0" y="25" width="1536" height="881" />
+    </state>
+    <state x="554" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1536.881@0.25.1536.881" timestamp="1636105631523" />
   </component>
 </project>
