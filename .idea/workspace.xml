@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="17caa3da-ba25-43a8-9517-7e12f6478c4e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,8 @@
       <workItem from="1599797367433" duration="770000" />
       <workItem from="1620829561616" duration="494000" />
       <workItem from="1620995927587" duration="9000" />
-      <workItem from="1626702578914" duration="696000" />
+      <workItem from="1626702578914" duration="1734000" />
+      <workItem from="1636085167435" duration="417000" />
     </task>
     <servers />
   </component>
@@ -91,9 +93,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="445" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1626702591919">
+    <state x="612" y="363" key="Github.ShareDialog" timestamp="1636085700183">
       <screen x="0" y="25" width="1536" height="881" />
     </state>
-    <state x="445" y="294" key="com.intellij.ide.util.TipDialog/0.25.1536.881@0.25.1536.881" timestamp="1626702591919" />
+    <state x="612" y="363" key="Github.ShareDialog/0.25.1536.881@0.25.1536.881" timestamp="1636085700183" />
   </component>
 </project>
